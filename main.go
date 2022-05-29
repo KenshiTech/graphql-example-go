@@ -32,7 +32,7 @@ func main() {
 			Block struct {
 				Number graphql.Int
 			}
-		} `graphql:"getEntries(blockchain: \"binance-testnet\")"`
+		} `graphql:"getEntries(blockchain: \"binance-testnet\", apikey: \"API_KEY\", owner: \"API_KEY_OWNER\")"`
 	}
 
 	/**
